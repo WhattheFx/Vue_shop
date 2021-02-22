@@ -1,0 +1,9 @@
+/*全局样式表*/
+/* 让padding充满整个屏幕 */
+html,
+body,
+#app {
+    height: 100%;
+    margin: 0;
+    padding:0;
+}
