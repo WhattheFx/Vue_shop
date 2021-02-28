@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Login from '../components/Login.vue'
 import Home from '../components/Home.vue'
 import Welcome from '../components/Welcome.vue'
+import Users from '../components/user/Users.vue'
 
 
 Vue.use(VueRouter)
@@ -38,7 +39,8 @@ const routes = [
     // 当访问home组件时候，自定义到welcome组件，接下来放路由占位符
     redirect:'/welcome',
     children: [
-      {path: '/welcome',component: Welcome}
+      {path: '/welcome',component: Welcome},
+      {path: '/users',component: Users}
     ]
   }
 ]

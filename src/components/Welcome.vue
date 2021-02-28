@@ -10,6 +10,6 @@ export default {
 </script>
 <style lang='less' scoped>
 .title1{
-    color:#ffffff;
+    color:#f40;
 }
 </style>

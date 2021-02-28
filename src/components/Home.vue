@@ -111,7 +111,7 @@ export default {
 }
 .el-main {
   background-color: #eaedf1;
-  background-image:url('../assets/welcome.jpg');
+  // background-image:url('../assets/welcome.jpg');
   background-size: 100%;
 }
 .iconfont {
