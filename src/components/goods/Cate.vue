@@ -59,7 +59,7 @@ export default {
 
           }
         //   console.log(res.data);
-        this.$message.success('获取商品列表数据成功');
+        // this.$message.success('获取商品列表数据成功');
         // 把数据列表，赋值给catelist
         this.catelist = res.data.result
         //为总数据条数
