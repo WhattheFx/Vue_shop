@@ -34,6 +34,7 @@ export default {
     created(){
         // 获取所有权限
         this.getRightSList()
+        console.log(this.rightsList)
     },
     methods: {
        async getRightSList(){
